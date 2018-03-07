@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Curso 3 - Semana 2</string>
+    <string name="iv_nombre_completo_descr">Nombre completo del contacto</string>
+    <string name="iv_fecha_nacimiento_descr">Fecha de nacimiento del contacto</string>
+    <string name="iv_telefono_descr">Teléfono del contacto</string>
+    <string name="iv_email_descr">Correo electrónico del contacto</string>
+    <string name="iv_descripcion_descr">Descripción del contacto</string>
+    <string name="nombre_completo_hint">Nombre completo</string>
+    <string name="telefono_hint">Teléfono</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="descripcion_hint">Descripción</string>
+    <string name="btn_siguiente_text">Siguiente</string>
+</resources>
