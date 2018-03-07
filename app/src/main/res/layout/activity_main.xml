@@ -41,7 +41,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:id="@+id/ivFechaNacimiento"
@@ -53,15 +54,20 @@
             android:contentDescription="@string/iv_fecha_nacimiento_descr"
             app:srcCompat="@drawable/calendar" />
 
-        <DatePicker
-            android:id="@+id/dpFechaNacimiento"
-            android:layout_width="0dp"
+        <TextView
+            android:id="@+id/tvFechaNacimiento"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:calendarViewShown="false"
-            android:datePickerMode="spinner" />
+            android:text="@string/tv_fecha_nacimiento_text" />
 
     </LinearLayout>
+
+    <DatePicker
+        android:id="@+id/dpFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
 
     <LinearLayout
         android:layout_width="match_parent"
