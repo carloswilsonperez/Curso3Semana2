@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="btn_siguiente" parent="Theme.AppCompat.Light">
+    <style name="boton_accion" parent="Theme.AppCompat.Light">
         <item name="android:colorButtonNormal">@color/colorAccent</item>
         <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
         <item name="android:textColor">@color/colorControlHighlight</item>
